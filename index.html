@@ -6,11 +6,16 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <head><p>Alistamento Militar - Formulário</p></head>
 <main>
-    <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
-        Nome Completo: <input type="text" name="fname">
+    <form id="Forms" name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+        <div>Nome Completo: <input type="text" name="fname"></div>
+        <div>Data de Nascimento: <input type="date" name="fname"></div>
+        <div>Sexo: <input type="select" name="Sexo">
+            <option value="Masculino"></option>
+            <option value="Feminino"></option></div>
         </form>
-        
+
 </main>
 </body>
 </html>
