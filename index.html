@@ -11,9 +11,16 @@
     <form id="Forms" name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
         <div>Nome Completo: <input type="text" name="fname"></div>
         <div>Data de Nascimento: <input type="date" name="fname"></div>
-        <div>Sexo: <input type="select" name="Sexo">
-            <option value="Masculino"></option>
-            <option value="Feminino"></option></div>
+        <div><Label>Sexo:</Label>
+            <select name="Sexo" required>
+            <option value="Selecione">Selecione</option>
+            <option value="M">Masculino</option>
+            <option value="F">Feminino</option> </select></div>
+            <div><Label>Já serviu o exército?</Label>
+                <select name="Sexo" required>
+                <option value="Selecione">Selecione</option>
+                <option value="S">Sim</option>
+                <option value="N">Não</option> </select></div>
         </form>
 
 </main>
